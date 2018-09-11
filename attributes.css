@@ -1,0 +1,52 @@
+@import "lesshat";
+
+body {
+  font-family : 'Soucre Sans Pro', sans-serif;
+    text-align: center;
+}
+
+nav {
+  width: 100%;
+  postion: fixed;
+  top: 0;
+
+  
+  ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0 auto;
+  
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      a {
+        color: #000;
+        text-decoration: none;
+        text-tranform: uppercase;
+      }
+    }
+  }
+}
+
+section {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  
+  /* position: absolute; */
+  /* top: 0; */
+  z-index: -100;
+  
+  &#section-1 {
+    background: #6C7A89;
+  }
+  &#section-2 {
+    background: #2574A9;
+  }
+  &#section-3 {
+    background: #26A65B;
+  }
+  &#section-4 {
+    background: #F2784B;
+  }
+}
