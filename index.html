@@ -36,6 +36,20 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }	
+#header{
+	position:relative;
+	height: 25px;
+	display:block;
+	width: 100%;
+	background: #333;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 0 0 0 0;
+	font-size:2vh;
+	font-family: 'Exo', sans-serif;
+	top:0px;
+}
 #ttl{
 	font-family: 'Exo', sans-serif;
 	font-size:60px;
@@ -183,8 +197,8 @@ a:active {
 
 <body>
 
-
-<div id="fullpage">
+<div id="header"><a href="http://github.com/Wykillin">My github</a></div>
+<div id="fullpage" class="fullpage-wrapper">
 	<div class="section active" id="section0"> 
 		<div id="ttl">Adam Wykle</div>
 		<div id="text">A detail oriented Software Programmer with a love of learning</div>
@@ -203,7 +217,7 @@ a:active {
 	<div id="resumeTitle">Embeded Resume<br></div>
 	<embed id="resume" width="auto" height="auto" src="Resume.pdf">
 	<div id="footerText"><a href="mailto:Adam@AdamWykle.com" alt="Email me!"><i class="fa fa-envelope" ></i> Adam@AdamWykle.com</a></div>
-</div>
+	</div>
 </div>
 
 
