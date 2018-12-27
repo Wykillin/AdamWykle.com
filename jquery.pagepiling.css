@@ -1,3 +1,11 @@
+/*!
+ * pagepiling.js 1.5.4
+ *
+ * https://github.com/alvarotrigo/pagePiling.js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
+ */
 html, body {
     overflow:hidden;
     margin:0;
@@ -8,7 +16,7 @@ html, body {
 }
 .pp-section {
     height:100%;
-    position:absolute;
+    position:;
     width:100%;
 }
 .pp-easing {
@@ -37,10 +45,11 @@ html, body {
     left: 17px;
 }
 .pp-section.pp-table{
-    display: block;
+    display: table;
 }
 .pp-tableCell {
-    display: block;
+    display: table-cell;
+    vertical-align: middle;
     width: 100%;
     height: 100%;
 }

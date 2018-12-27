@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+SITEMAP: adamwykle.com/sitemap.xml

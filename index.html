@@ -1,63 +1,218 @@
-<!DOCTYPE html><html lang='en' class=''>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script><script src='//static.codepen.io/assets/editor/live/css_live_reload_init-e9c0cc5bb634d3d14b840de051920ac153d7d3d36fb050abad285779d7e5e8bd.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/anon/pen/mjvQEd" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Adam Wykle</title>
+	<meta name="author" content="Adam Wykle" />
+	<meta name="description" content="Personal website about Adam Wykle" />
+	<meta name="keywords"  content="Adam Wykle, Wykle, Adam Wykle resume, Adam Wykle portfolio, Adam Wykle Site" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Resource-type" content="Document" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Exo:600i|Open+Sans" rel="stylesheet"> 
+	
+	<style>
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #307267;
+    background-color: transparent;
+    text-decoration: bold;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}	
+#ttl{
+	font-family: 'Exo', sans-serif;
+	font-size:60px;
+	font-size:9vh;
+	position: relative;
+	text-align: center;
+	top: 3vh;
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	color: #ffffff;
+}
+#section0{
+	background-image: url("me(rounded corners).png");
+	background-size: auto 50%;
+	background-attachment: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#text{
+	font-family: 'Exo', sans-serif;
+	position: absolute;
+	font-size: 36px;
+	font-size: 4vh;
+	padding-bottom: 5vh;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	color: #ffffff;
+}
+#fixedHeader{
+	position: fixed;
+	padding-top: 5vh;
+	font-size: 40px;
+	font-size: 5vh;
+	bottom:0;
+	right:0;
+	left:0;
+	color: ffffff;
+}
+#slide1-text{
+	font-size:36px;
+	font-size:4vh;
+	color:#ffffff;
+	top: 50%;
+	padding:50vh 5vh 0 5vh;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#slide2{
+	background:#89BEB6;
+}
+#slide2-text{
+	font-size:36px;
+	font-size:4vh;
+	padding:50vh 5vh 0 5vh;
+	color:#ffffff;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#slide3{
+	background:#317469;
+}
+#slide3-text{
+	font-size:36px;
+	font-size:4vh;
+	padding:50vh 5vh 0 5vh;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	color:#ffffff;
+}
+#slide4{
+	background:#1bbc9b;
+	
+}
+#slide4-text{
+	font-size:36px;
+	font-size:4vh;
+	padding:50vh 5vh 0 5vh;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	color:#ffffff;
+}
+#section2{
+	font-size:36px;
+	font-size:4vh;
+	padding:50vh 5vh 0 5vh;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	color:#ffffff;
+}
+#section3{
+	background:#559E54;
+}
+#resumeTitle{
+	font-family: 'Exo', sans-serif;
+	font-size:40px;
+	font-size:8vh;
+	top:10px;
+	position: relative;
+	text-align: center;
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	color: #307267;
+	
+}
+#resume{
+	height:80%;
+	width:85%;
+	top:10px;
+	position: relative;
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	padding-bottom:10px;
+	z-index:3;
+}
+#footerText{
+	position:absolute;
+	font-family: 'Exo', sans-serif;
+	font-size:16px;
+	font-size:3vh;
+	text-align: center;
+	left: 0;
+	right: 0;
+	bottom:0%;
+	z-index:4;
+	color: white;
+}
+</style>
 
-<link rel='stylesheet' href='https://cdn.rawgit.com/alvarotrigo/pagePiling.js/master/jquery.pagepiling.css'>
-<style class="cp-pen-styles">body {
-  font-family: 'Soucre Sans Pro', sans-serif;
-  text-align: center;
-}
-nav {
-  width: 100%;
-  postion: fixed;
-  top: 0;
-}
-nav ul {
-  list-style: none;
-  padding: 20px;
-  margin: 0 auto;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
-}
-nav ul li a {
-  color: #000;
-  text-decoration: none;
-  text-tranform: uppercase;
-}
-section {
-  color: #fff;
-  font-size: 50px;
-  font-weight: bold;
-  /* position: absolute; */
-  /* top: 0; */
-  z-index: -100;
-}
-section#section-1 {
-  background: #6C7A89;
-}
-section#section-2 {
-  background: #2574A9;
-}
-section#section-3 {
-  background: #26A65B;
-}
-section#section-4 {
-  background: #F2784B;
-}
-</style></head><body>
-<div id="pagepiling">
+</head>
 
-  <section class="section" id="section-1">Section 1</section>
-  <section class="section" id="section-2">Section 2</section>
-  <section class="section" id="section-3">Section 3</section>
-  <section class="section" id="section-4">Section 4</section>
-<script src='//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://cdn.rawgit.com/alvarotrigo/pagePiling.js/master/jquery.pagepiling.min.js'></script>
-<script >$(document).ready(function () {
-                $('#pagepiling').pagepiling();
-});
-//# sourceURL=pagepiling.js
+<body>
+
+
+<div id="fullpage">
+	<div class="section active" id="section0"> 
+		<div id="ttl">Adam Wykle</div>
+		<div id="text">A detail oriented Software Programmer with a love of learning</div>
+	</div>
+	<div class="section" id="section1">
+		
+	    
+		<div class="slide active" id="slide1"><div id="slide1-text">Degree in Computer Science from Northern Illinois University</div>
+		</div>
+	    <div class="slide" id="slide2"><div id="slide2-text">Proficient in: C++, C#, Java, PHP, HTML/CSS, and shell programming</div></div>
+	    <div class="slide" id="slide3"><div id="slide3-text">Experienced in the use of many operating systems and their general use hotkeys</div></div>
+	    <div class="slide" id="slide4"><div id="slide4-text">Have built over 10 PCs from self selected parts and maintained them over time</div></div>
+	</div>
+	<div class="section" id="section2">Dedicated to a life of continued learning and understanding new technologies</div>
+	<div class="section" id="section3" style="color:#255951">
+	<div id="resumeTitle">Embeded Resume<br></div>
+	<embed id="resume" width="auto" height="auto" src="Resume.pdf">
+	<div id="footerText"><a href="mailto:Adam@AdamWykle.com" alt="Email me!"><i class="fa fa-envelope" ></i> Adam@AdamWykle.com</a></div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="fullpage.js"></script>
+<script type="text/javascript">
+	var myFullpage = new fullpage('#fullpage', {
+		sectionsColor: ['#307267', '#91C9C0', '#195C51', '#084238', '#ccddff']
+	});
 </script>
-</body></html>
+</body>
+</html>
